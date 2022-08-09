@@ -1,7 +1,6 @@
 import { Spinner, useToast , Center, Heading, } from "@chakra-ui/react";
 import { useState } from "react";
 import { useQuery} from "react-query"
-import AddTodo from "./Components/AddTodo";
 import Todo from "./Components/Todo";
 import { fetchTodos } from "./Helpers/api";
 function App() {
