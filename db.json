@@ -1,0 +1,85 @@
+{
+    "Todos":[
+        {
+          "assignee": "Suga",
+          "days": "3",
+          "hours": "2",
+          "priority": "P1",
+          "status": "Completed",
+          "task": "Make Coffee",
+          "id": 1
+        },
+        {
+          "assignee": "Suga",
+          "days": "3",
+          "hours": "2",
+          "priority": "P1",
+          "status": "Todo",
+          "task": "Craete Todo App",
+          "id": 2
+        },
+        {
+          "assignee": "Suga",
+          "days": "3",
+          "hours": "2",
+          "priority": "P1",
+          "status": "Todo",
+          "task": "Lean Web Designing",
+          "id": 3
+        },
+        {
+          "assignee": "raju",
+          "days": "3",
+          "hours": "2",
+          "priority": "P1",
+          "status": "Completed",
+          "task": "Learn react query",
+          "id": 4
+        },
+        {
+          "assignee": "seenu",
+          "days": "3",
+          "hours": "2",
+          "priority": "P1",
+          "status": "Todo",
+          "task": "Create Responsive Web App",
+          "id": 5
+        },
+        {
+          "assignee": "Suga",
+          "days": "3",
+          "hours": "2",
+          "priority": "P1",
+          "status": "Todo",
+          "task": "Lean Web SCraping",
+          "id": 6
+        },
+        {
+          "assignee": "Suga",
+          "days": "3",
+          "hours": "2",
+          "priority": "P1",
+          "status": "In-Progress",
+          "task": "Make Coffee",
+          "id": 7
+        },
+        {
+          "assignee": "Suga",
+          "days": "3",
+          "hours": "2",
+          "priority": "P1",
+          "status": "In-Progress",
+          "task": "Create Todo App",
+          "id": 8
+        },
+        {
+          "assignee": "Suga",
+          "days": "3",
+          "hours": "2",
+          "priority": "P1",
+          "status": "Todo",
+          "task": "Lean Web Designing",
+          "id": 9
+        }
+      ]
+}
