@@ -179,15 +179,6 @@
       "status": "In-Progress",
       "task": "Create Todo App",
       "id": 17
-    },
-    {
-      "assignee": "Suga",
-      "days": "3",
-      "hours": "2",
-      "priority": "P1",
-      "status": "Todo",
-      "task": "Lean Web Designing",
-      "id": 18
     }
   ]
 }

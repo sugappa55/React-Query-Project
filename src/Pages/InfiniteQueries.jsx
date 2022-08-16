@@ -48,6 +48,7 @@ const InfiniteQueries = () => {
 
 <button
 
+  className='bg-gray-500 hover:bg-black hover:text-white mb-2 px-4 py-2 rounded-lg'
   onClick={() => fetchNextPage()}
 
   disabled={!hasNextPage || isFetchingNextPage}

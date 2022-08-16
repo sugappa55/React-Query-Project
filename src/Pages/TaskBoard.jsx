@@ -28,8 +28,8 @@ const TaskBoard = () => {
       )
     }
     <div className="lg:w-[800px] w-[98%] lg:my-4 flex justify-around ">
-      <button className="px-3 py-2 bg-black text-white rounded-md hover:bg-gray-600 transition-all delay-300 ease-in-out" disabled={page===1} onClick={()=>setPage(page-1)}>Prev</button>
-      <button className="px-3 py-2 bg-black text-white rounded-md hover:bg-gray-600 transition-all delay-300 ease-in-out" onClick={()=>setPage(page+1)}>Next</button>
+      <button className="px-3 py-2 hover:bg-black text-white rounded-md bg-gray-600 transition-all delay-300 ease-in-out" disabled={page===1} onClick={()=>setPage(page-1)}>Prev</button>
+      <button className="px-3 py-2 hover:bg-black text-white rounded-md bg-gray-600 transition-all delay-300 ease-in-out" onClick={()=>setPage(page+1)}>Next</button>
     </div>
   </div>
   )
