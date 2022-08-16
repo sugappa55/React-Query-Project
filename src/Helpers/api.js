@@ -1,12 +1,12 @@
 import axios from "axios";
 
- const api=axios.create({
-    baseURL:process.env.REACT_APP_URL
+export const api=axios.create({
+    baseURL:"http://localhost:4000"
 })
 
 export const fetchTodos=async({queryKey})=>{
     try {
-        return await api.get(`/todos?_page=${queryKey[1]}&_limit=6`).then(res=>res.data)
+        return await api.get(`/todos?_page=${queryKey[1]}&_limit=5`).then(res=>res.data)
     } catch (error) {
         throw error(error.message)
     }
@@ -30,7 +30,7 @@ try {
 
 export const createTodo=async(todo)=>{
     try {
-        return api.post('/todos',todo)
+        return await api.post('/todos',todo)
     } catch (e) {
         throw e (e.message)
     }

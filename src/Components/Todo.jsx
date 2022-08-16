@@ -35,7 +35,7 @@ const Todo = ({todo}) => {
       <p>Task: {todo.task}</p>
       <p>Assignee: {todo.assignee}</p>
       <p>Estimated Time: {todo.days}d{" "}{todo.hours}{todo.hours<=1?"hr":"hrs"}</p>
-        <button className="px-4 py-1 rounded-md bg-green-500"onClick={()=>updateTodo({id:todo.id,status:todo.status==="Todo"?"In-Progress":todo.status==="In-Progress"?"Completed":"Todo"})}>Mark as {todo.status==="Todo"?"In Progress":todo.status==="In-Progress"?"Completed":"Todo"}</button>
+        <button className="px-4 py-1 rounded-md bg-green-500 hover:bg-green-600"onClick={()=>updateTodo({id:todo.id,status:todo.status==="Todo"?"In-Progress":todo.status==="In-Progress"?"Completed":"Todo"})}>Mark as {todo.status==="Todo"?"In Progress":todo.status==="In-Progress"?"Completed":"Todo"}</button>
     </div>
     <div className="flex flex-col gap-2">
       <div className="flex items-center gap-1">
@@ -46,7 +46,7 @@ const Todo = ({todo}) => {
         <p>Status:</p>
         <div className="text-white rounded px-2 py-1" style={{backgroundColor:`${getColour(todo.status)}`}}>{todo.status}</div>
       </div>
-        <button className="bg-red-500 rounded ripple" onClick={()=>deletetodo(todo.id)}>Delete</button>
+        <button className="bg-red-500 hover:bg-red-600 rounded ripple" onClick={()=>deletetodo(todo.id)}>Delete</button>
     </div>
     </div>
   )
